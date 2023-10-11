@@ -30,17 +30,17 @@ This Nuxt module provides a `DirectusImg` helper component for displaying images
 
 ## Quick Setup
 
-1. Add `nuxt-image-directus` dependency to your project (currently only available via GitHub)
+1. Add `nuxt-image-directus` dependency to your project
 
 ```bash
 # Using pnpm
-pnpm add -D dwaring87/nuxt-image-directus
+pnpm add -D nuxt-image-directus
 
 # Using yarn
-yarn add --dev dwaring87/nuxt-image-directus
+yarn add --dev nuxt-image-directus
 
 # Using npm
-npm install --save-dev dwaring87/nuxt-image-directus
+npm install --save-dev nuxt-image-directus
 ```
 
 2. Add `nuxt-image-directus` to the `modules` section of `nuxt.config.ts`
@@ -76,7 +76,7 @@ DIRECTUS_URL=https://yourdirectus.com
 DIRECTUS_TOKEN=0123456789abcdef
 ```
 
-### Usage
+## Usage
 
 When running Nuxt in development mode or in the standard SSR/hybrid mode, the image will be linked directly to Directus.  When running `nuxi generate`, all of the images in the pre-rendered routes will be downloaded and linked to the local static images.
 
