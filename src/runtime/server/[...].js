@@ -10,6 +10,7 @@ export default defineEventHandler(async (event) => {
 
     // Set image properties
     const { src, ...options } = await readBody(event);
+    if ( !src ) return;
     if ( options.transforms ) options.transforms = JSON.stringify(options.transforms);
 
     // Get module config

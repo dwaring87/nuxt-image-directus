@@ -5,7 +5,7 @@
 
   const props = defineProps({
     src: {
-      type: String,
+      type: String|undefined,
       required: true
     },
     width: String,
