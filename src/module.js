@@ -43,11 +43,11 @@ export default defineNuxtModule({
     // Add Server Routes
     addServerHandler({
       route: '/nuxt-image-directus/get-src',
-      handler: resolver.resolve(runtimeDir, 'server', '[...].js')
+      handler: resolver.resolve(runtimeDir, 'server', '[...]')
     });
     addServerHandler({
       route: '/nuxt-image-directus/get-images',
-      handler: resolver.resolve(runtimeDir, 'server', '[...].js')
+      handler: resolver.resolve(runtimeDir, 'server', '[...]')
     });
 
     // Add Components
