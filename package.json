@@ -1,6 +1,6 @@
 {
   "name": "nuxt-image-directus",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "author": "David Waring <dev@davidwaring.net>",
   "description": "A DirectusImg component for displaying images from a Directus instance that supports static site generation",
   "repository": "dwaring87/nuxt-image-directus",
