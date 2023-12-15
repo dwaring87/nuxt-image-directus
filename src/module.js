@@ -74,6 +74,7 @@ const generateImages = async (nuxt) => {
 
     // Create image directory, if it doesn't exist
     const full_path_image_dir = (`${rootDir}/${outputDir}/${imageDir}`).replaceAll('//', '/');
+    console.log("[nuxt-image-directus] Saving images to: " + full_path_image_dir);
     try {
       let f = await fs.open(full_path_image_dir);
       f.close();
