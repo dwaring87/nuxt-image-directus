@@ -79,7 +79,7 @@ const generateImages = async (nuxt) => {
       f.close();
     }
     catch (err) {
-      await fs.mkdir(full_path_image_dir);
+      await fs.mkdir(full_path_image_dir, { recursive: true });
     }
 
     // Generate each image
